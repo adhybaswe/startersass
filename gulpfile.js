@@ -20,7 +20,10 @@ gulp.task('fonts', function() {
 });
 
 gulp.task('js', function() {
-    return gulp.src(config.bootstrapDir + '/assets/javascript/bootstrap.min.js')
+    return gulp.src([
+        config.bootstrapDir + '/assets/javascripts/bootstrap.js',
+        config.bootstrapDir + '/assets/javascripts/bootstrap.min.js'
+        ])
     .pipe(gulp.dest('./public/js'));
 });
 
