@@ -1,0 +1,29 @@
+{
+  "name": "startersass",
+  "version": "1.0.0",
+  "description": "Starter Sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adhybaswe/startersass.git"
+  },
+  "keywords": [
+    "starter",
+    "sass"
+  ],
+  "author": "adhybaswe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adhybaswe/startersass/issues"
+  },
+  "homepage": "https://github.com/adhybaswe/startersass#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^4.3.11",
+    "bootstrap-sass": "^3.3.7"
+  }
+}

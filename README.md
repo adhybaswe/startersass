@@ -1,2 +1,3 @@
-# startersass
-Starter Sass
+# Starter Sass
+Cara Menggunakan :
+npm install
